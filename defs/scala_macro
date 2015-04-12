@@ -1,0 +1,7 @@
+def scala_jar(name, srcs):
+  genrule(
+      name = name,
+      srcs = srcs,
+      out = '%s.jar' % name,
+      cmd = 'scalac -d $OUT $SRCS',
+  )
