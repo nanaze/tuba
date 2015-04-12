@@ -1,3 +1,7 @@
 # emacs files
 *~
 \#*\#
+
+# buck
+buck-out/
+.buckd/
